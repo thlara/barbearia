@@ -16,6 +16,10 @@ h1{
 
 }
 
+#fundo {
+	color: blueviolet;
+}
+
 
 p{
 	font-family:font-family: 'Passions Conflict', cursiva;
@@ -27,3 +31,6 @@ li {
 	color: white;
 font-size: 25px;
 }
+
+
+

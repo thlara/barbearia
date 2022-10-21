@@ -22,8 +22,8 @@ h1{
 
 
 p{
-	font-family:font-family:'Passions Conflict', cursiva;
-	
+	font-family:font-family: 'Passions Conflict', cursiva;
+	color: white;
 
 }
 
@@ -36,10 +36,10 @@ font-size: 25px;
 
 
 
-#foto1 {
+#foto1{
 	width: 40%;
 }
 
-#foto2 {
+#foto2{
 	width: 40%;
 }

@@ -23,19 +23,37 @@
 		</nav>
 		<img id="banner" src="banner.png">
 	</header>
+
     <body>
-        <form class="formulario" method="post" action="#">
+         <div class="formularioContato">
         
-            <h2 class="title-form"><i class="icon icon-mail-read"></i> Fale Conosco </h2>
-    
-            <input type="text" name="nome" class="campo" placeholder="Nome" required="">
-            <input type="text" name="email" class="campo" placeholder="E-mail" required="">
-            <input type="text" name="assunto" class="campo" placeholder="Assunto" required="">
-            <textarea name="mensagem" class="campo" rows="2" placeholder="Mensagem" required=""></textarea>
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <label>
+                <span><i class="icon icon-user-1"></i> Nome</span>
+                <input type="text" name="nome" required="">
+            </label>
             
-            <button class="btn floating">Enviar</button> 
-    
+            <label>
+                <span><i class="icon icon-email"></i> E-mail</span>
+                <input type="text" name="email" class="fade_8S">
+            </label>
+
+            <label>
+                <span><i class="icon icon-flag"></i> Assunto</span>
+                <input type="text" name="assunto" required="">
+            </label>
+            
+            <label>
+                <span><i class="icon icon-comment"></i> Mensagem</span>
+                 <textarea name="mensagem" rows="3" required=""></textarea> 
+            </label>
+           
+            <input type="hidden" name="acao" value="enviar" />
+            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+
+        
         </form>
-    
-    </div><!--Nuvem-->
+
+    </div><!--Formulario Contato-->
     </body>
